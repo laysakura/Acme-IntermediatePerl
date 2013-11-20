@@ -4,7 +4,7 @@ use utf8;
 use Test::More;
 use File::Basename qw(dirname);
 use Cwd qw (abs_path);
-use Perl::IntermediatePerl::Sec02 qw (ex1 ex3);
+use Acme::IntermediatePerl::Sec02 qw (ex1 ex3);
 
 # ex1
 {

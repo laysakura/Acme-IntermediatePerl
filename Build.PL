@@ -23,8 +23,8 @@ my %args = (
         'Module::Build' => 0.38,
     },
 
-    name            => 'Perl-IntermediatePerl',
-    module_name     => 'Perl::IntermediatePerl',
+    name            => 'Acme-IntermediatePerl',
+    module_name     => 'Acme::IntermediatePerl',
     allow_pureperl => 0,
 
     script_files => [glob('script/*'), glob('bin/*')],

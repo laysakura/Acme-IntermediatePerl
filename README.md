@@ -1,14 +1,14 @@
 # NAME
 
-Perl::IntermediatePerl - It's new $module
+Acme::IntermediatePerl - It's new $module
 
 # SYNOPSIS
 
-    use Perl::IntermediatePerl;
+    use Acme::IntermediatePerl;
 
 # DESCRIPTION
 
-Perl::IntermediatePerl is ...
+Acme::IntermediatePerl is ...
 
 # LICENSE
 

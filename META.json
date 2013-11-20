@@ -12,7 +12,7 @@
       "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
       "version" : "2"
    },
-   "name" : "Perl-IntermediatePerl",
+   "name" : "Acme-IntermediatePerl",
    "no_index" : {
       "directory" : [
          "t",
@@ -55,13 +55,13 @@
    "release_status" : "unstable",
    "resources" : {
       "bugtracker" : {
-         "web" : "https://github.com/laysakura/Perl-IntermediatePerl/issues"
+         "web" : "https://github.com/laysakura/Acme-IntermediatePerl/issues"
       },
-      "homepage" : "https://github.com/laysakura/Perl-IntermediatePerl",
+      "homepage" : "https://github.com/laysakura/Acme-IntermediatePerl",
       "repository" : {
          "type" : "git",
-         "url" : "git://github.com/laysakura/Perl-IntermediatePerl",
-         "web" : "https://github.com/laysakura/Perl-IntermediatePerl"
+         "url" : "git://github.com/laysakura/Acme-IntermediatePerl",
+         "web" : "https://github.com/laysakura/Acme-IntermediatePerl"
       }
    },
    "version" : "0.01"

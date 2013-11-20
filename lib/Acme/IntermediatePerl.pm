@@ -1,4 +1,4 @@
-package Perl::IntermediatePerl;
+package Acme::IntermediatePerl;
 use 5.008005;
 use strict;
 use warnings;
@@ -14,15 +14,15 @@ __END__
 
 =head1 NAME
 
-Perl::IntermediatePerl - It's new $module
+Acme::IntermediatePerl - It's new $module
 
 =head1 SYNOPSIS
 
-    use Perl::IntermediatePerl;
+    use Acme::IntermediatePerl;
 
 =head1 DESCRIPTION
 
-Perl::IntermediatePerl is ...
+Acme::IntermediatePerl is ...
 
 =head1 LICENSE
 
