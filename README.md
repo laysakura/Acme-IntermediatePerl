@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/laysakura/Acme-IntermediatePerl.png)](https://travis-ci.org/laysakura/Acme-IntermediatePerl)
+
 # NAME
 
 Acme::IntermediatePerl - Solutions to exercises in "Intermediate Perl"
