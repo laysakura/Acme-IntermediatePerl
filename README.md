@@ -1,14 +1,13 @@
 # NAME
 
-Acme::IntermediatePerl - It's new $module
+Acme::IntermediatePerl - Solutions to exercises in "Intermediate Perl"
 
 # SYNOPSIS
 
-    use Acme::IntermediatePerl;
-
-# DESCRIPTION
-
-Acme::IntermediatePerl is ...
+```perl
+$ carton install
+$ carton exec prove -Ilib
+```
 
 # LICENSE
 
