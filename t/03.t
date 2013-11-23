@@ -22,7 +22,7 @@ subtest 'ex2' => sub {
     is_deeply(ex2('/XXX/i'    , $dir), [map catfile($dir, $_), qw(XXX xxx)]);
     is_deeply(ex2('/\w/i'     , $dir), [map catfile($dir, $_), qw(XXX a b c x-y-z x_y_z xxx)]);
     is_deeply(ex2('/[^abc]$/i', $dir), [map catfile($dir, $_), qw(XXX x-y-z x_y_z xxx)]);
-    is_deeply(ex2('/+((((/'       , $dir), []);  # call with wrong regex successfully returns
+    is_deeply(ex2('/((((/'    , $dir), []);  # call with wrong regex successfully returns
 };
 
 done_testing;
