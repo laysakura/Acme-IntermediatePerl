@@ -8,6 +8,7 @@ use utf8;
 use File::Spec::Functions;
 use File::Find;
 use Business::ISBN;
+use Search::Fulltext;
 
 sub ex1 {
     my $files = [];
