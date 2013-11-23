@@ -19,6 +19,10 @@ subtest 'ex1' => sub {
 };
 
 subtest 'ex3' => sub {
+    is_deeply(ex3(), {
+        group_code     => 4,
+        publisher_code => 87311
+    });
 };
 
 done_testing;

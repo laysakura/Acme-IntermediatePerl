@@ -7,6 +7,7 @@ use warnings;
 use utf8;
 use File::Spec::Functions;
 use File::Find;
+use Business::ISBN;
 
 sub ex1 {
     my $files = [];
@@ -15,7 +16,11 @@ sub ex1 {
 }
 
 sub ex3 {
-    1;
+    my $isbn = Business::ISBN->new('978-4-87311-628-0');
+    {
+        group_code     => $isbn->group_code,
+        publisher_code => $isbn->publisher_code,
+    };
 }
 
 1;
