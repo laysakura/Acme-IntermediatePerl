@@ -13,7 +13,7 @@ subtest 'ex1' => sub {
     chdir $dir;
 
     my @files = qw(a b c x/y x/z);
-    is_deeply(ex1(), [ map(catfile($dir, $_), @files) ]);
+    is_deeply(ex1(), [ map catfile($dir, $_), @files ]);
 
     chdir $orig_dir;
 };
